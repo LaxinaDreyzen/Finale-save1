@@ -1,0 +1,25 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Death.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.land {
+    
+}
+
+ul li {
+    list-style: none;
+}
