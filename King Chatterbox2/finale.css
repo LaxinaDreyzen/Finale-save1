@@ -8,6 +8,10 @@ body{
     background-image: url(Death.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .nav {
@@ -16,10 +20,40 @@ body{
     background-color: rgba(0, 0, 0, 0.863);
 }
 
+
+.nav a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
 .land {
     
 }
 
 ul li {
     list-style: none;
+}
+
+.containerss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wlcm{
+    color: rgb(194, 0, 0);
+    position: absolute;
+}
+
+.bg-vid {
+    filter: brightness(70%);
+    height: 100%;
+    width: 97%;
+    position: relative;
+}
+
+.faic1 {
+
 }
