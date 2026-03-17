@@ -8,18 +8,14 @@
 
 body{
     background-image: url(Death.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.863);
     justify-content: space-between;
@@ -47,24 +43,13 @@ body{
     border-radius: 50px;
 }
 
-
-
-
-.land {
-    
-}
-
-ul li {
-    list-style: none;
-}
-
 .containerss{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
     font-size: 30px;
     font-family: "New Rocker", system-ui
 }
@@ -82,5 +67,173 @@ ul li {
 }
 
 .faic1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 150px;
+}
 
+.faic1 img {
+    border: 7px solid #4f095f;
+    background-color: #000000;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    transition: all .2s ease-in-out;
+}
+
+.faic1 img:hover {
+    transform: scale(1.1);
+}
+
+.big {
+    display: flex;
+    flex-direction: row;
+}
+
+.ricardo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 500px;
+    height: 600px;
+}
+
+.ricardo img {
+    width: 400px;
+    height: 600px;
+}
+
+
+.ricardo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 1500px;
+    height: 600px;
+    font-size: 30px;
+    color: #f5f4e9;
+    text-decoration: none;
+    font-family: "New Rocker", system-ui
+}
+
+.little {
+    display: flex;
+    flex-direction: row;
+}
+
+.werner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 510px;
+    height: 600px;
+}
+
+.werner img{
+    width: 300px;
+    height: 600px;
+}
+
+.werner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 1500px;
+    height: 600px;
+    font-size: 30px;
+    color: #f5f4e9;
+    text-decoration: none;
+    font-family: "New Rocker", system-ui
+}
+
+.great {
+    display: flex;
+    flex-direction: row;
+}
+
+.matthias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 500px;
+    height: 600px;
+}
+
+.matthias img {
+    width: 400px;
+    height: 600px;
+}
+
+.matthias2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 1500px;
+    height: 600px;
+    font-size: 30px;
+    color: #f5f4e9;
+    text-decoration: none;
+    font-family: "New Rocker", system-ui
+}
+
+.kitkat {
+  display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.kira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 510px;
+    height: 600px;
+}
+
+.kira img {
+    width: 250px;
+    height: 600px;
+}
+
+.kira2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #a000c4;
+    background-color: #000000;
+    width: 1500px;
+    height: 600px;
+    font-size: 30px;
+    color: #f5f4e9;
+    text-decoration: none;
+    font-family: "New Rocker", system-ui
+}
+
+#cool {
+    margin-bottom: 50px;
+}
+
+.grudge {
+    
 }
